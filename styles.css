@@ -1,0 +1,50 @@
+body {
+	background: black;
+	font-family: "Comic Sans MS", cursive;
+}
+
+.postcard {
+	width: 450px;
+	height: 300px;
+	background: white;
+	margin: auto;
+	padding: 20px;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	width: 100%;
+	height: 50px;
+	margin: 0;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0;
+}
+.body-left,
+.body-right {
+	padding: 10px;
+	width: 50%;
+}
+input {
+	border: none;
+	border-bottom: 1px gray solid;
+	width: 100%;
+	padding: 5px;
+	margin: 3px 0;
+}
+.postcard-footer {
+	text-align: center;
+	padding: 10px;
+}
+button {
+	background-color: #716f6fa4;
+	padding: 10px;
+}

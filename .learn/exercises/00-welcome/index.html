@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Postcard</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+        }
+        .postcard {
+            width: 500px;
+            background: white;
+            padding: 20px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+            font-family: 'Arial', sans-serif;
+        }
+        h2 {
+            font-family: 'Comic Sans MS', cursive;
+        }
+        .content {
+            margin-bottom: 20px;
+        }
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10px;
+        }
+        input, textarea {
+            border: none;
+            border-bottom: 1px solid gray;
+            padding: 5px;
+            outline: none;
+            font-size: 16px;
+        }
+        button {
+            background: lightgray;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .icon {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="postcard">
+        <h2>My Postcard</h2>
+        <div class="content">
+            <p>Look how awesome! This is a postcard that I created using HTML5 and CSS3 during my 4Geeks Academy Course!</p>
+            <p>This is so cool, can't wait to start doing more stuff!</p>
+        </div>
+        <div class="input-group">
+            <input type="text" placeholder="Some Name">
+        </div>
+        <div class="input-group">
+            <input type="email" placeholder="Some Email">
+        </div>
+        <div class="input-group">
+            <textarea placeholder="Some comment"></textarea>
+        </div>
+        <button>Send My Postcard</button>
+    </div>
+</body>
+</html>
